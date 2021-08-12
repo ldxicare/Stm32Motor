@@ -1,0 +1,13 @@
+*.crf
+*.d
+*.o
+*.htm
+*.Inp
+*.map
+*.sct
+*dep
+Debug/
+.metadata/
+
+
+
