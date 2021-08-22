@@ -55,12 +55,12 @@
 		<define key="DRIVES_NUMBER_SELECTION" value="SINGLEDRIVE" />
 		<define key="MAX_APPLICATION_SPEED" value="1000" />
 		<define key="MIN_APPLICATION_SPEED" value="0" />
-		<define key="MEAS_ERRORS_BEFORE_FAULTS" value="3" />
-		<define key="ENC_MEAS_ERRORS_BEFORE_FAULTS" value="3" />
+		<define key="MEAS_ERRORS_BEFORE_FAULTS" value="255" />
+		<define key="ENC_MEAS_ERRORS_BEFORE_FAULTS" value="255" />
 		<define key="ENC_ICx_FILTER" value="50" />
 		<define key="ENC_INVERT_SPEED" value="DISABLE" />
 		<define key="ENC_AVERAGING_FIFO_DEPTH" value="16" />
-		<define key="HALL_MEAS_ERRORS_BEFORE_FAULTS" value="3" />
+		<define key="HALL_MEAS_ERRORS_BEFORE_FAULTS" value="255" />
 		<define key="HALL_ICx_FILTER" value="96" />
 		<define key="HALL_AVERAGING_FIFO_DEPTH" value="6" />
 		<define key="HALL_MTPA" value="FALSE" />
@@ -71,7 +71,7 @@
 		<define key="GAIN2" value="22347" />
 		<define key="PLL_KP_GAIN" value="71" />
 		<define key="PLL_KI_GAIN" value="1" />
-		<define key="OBS_MEAS_ERRORS_BEFORE_FAULTS" value="3" />
+		<define key="OBS_MEAS_ERRORS_BEFORE_FAULTS" value="255" />
 		<define key="STO_FIFO_DEPTH_DPP" value="64" />
 		<define key="STO_FIFO_DEPTH_01HZ" value="64" />
 		<define key="BEMF_CONSISTENCY_TOL" value="64" />
@@ -83,7 +83,7 @@
 		<define key="CORD_F2" value="1024" />
 		<define key="CORD_GAIN1" value="-24064" />
 		<define key="CORD_GAIN2" value="22347" />
-		<define key="CORD_MEAS_ERRORS_BEFORE_FAULTS" value="3" />
+		<define key="CORD_MEAS_ERRORS_BEFORE_FAULTS" value="255" />
 		<define key="CORD_FIFO_DEPTH_DPP" value="64" />
 		<define key="CORD_FIFO_DEPTH_01HZ" value="64" />
 		<define key="CORD_MAX_ACCEL_DPPP" value="17" />
