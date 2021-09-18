@@ -88,7 +88,7 @@ typedef struct
 } SpeednPosFdbk_Handle_t;
 
 /**
-  * @brief input structure type definition for SPD_CalcAngle
+  * @brief input structure type definition for SPD_CalcAngle SPEED_UNIT
   */
 typedef struct
 {

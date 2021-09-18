@@ -108,7 +108,7 @@
 /* Default settings */
 #define DEFAULT_CONTROL_MODE           STC_SPEED_MODE /*!< STC_TORQUE_MODE or
                                                         STC_SPEED_MODE */
-#define DEFAULT_TARGET_SPEED_RPM      734
+#define DEFAULT_TARGET_SPEED_RPM      600
 #define DEFAULT_TARGET_SPEED_UNIT      (DEFAULT_TARGET_SPEED_RPM*SPEED_UNIT/_RPM)
 #define DEFAULT_TORQUE_COMPONENT       0
 #define DEFAULT_FLUX_COMPONENT         0
@@ -139,7 +139,7 @@
 /******************************   START-UP PARAMETERS   **********************/
 /* Encoder alignment */
 #define ALIGNMENT_DURATION              700 /*!< milliseconds */
-#define ALIGNMENT_ANGLE_DEG             90 /*!< degrees [0...359] */
+#define ALIGNMENT_ANGLE_DEG             60 /*!< degrees [0...359] */
 #define FINAL_I_ALIGNMENT               16443 /*!< s16A */
 // With ALIGNMENT_ANGLE_DEG equal to 90 degrees final alignment
 // phase current = (FINAL_I_ALIGNMENT * 1.65/ Av)/(32767 * Rshunt)
